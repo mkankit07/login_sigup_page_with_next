@@ -1,0 +1,184 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.signup-form{
+  border-radius: 20px;
+  width:70vw;
+  height: auto;
+  border: 1px solid red
+}
+
+nav a{
+  color:white;
+}
+.input-field{
+  width:75%;
+  gap:2;
+}
+.submit-btn{
+  width:70%;
+  margin-bottom: 5%;
+  padding: 7px 27px;
+  cursor :pointer;
+  display: block;
+  color: white;
+  margin: auto;
+  background:rgb(243, 121, 239);
+  border:0;
+  outline:none;
+  border-radius: 30px;
+}
+
+.input-field{
+  
+  margin-left: 3%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding:2%;
+  float: left;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid #999;
+  outline:none;
+  background:transparent;
+}
+
+
+
+.login-page{
+  border-radius: 20px;
+  width:60vw;
+  height: auto;
+  border: 1px solid red
+}
+.bg-img{
+  border-radius: 20px 0 0 20px;
+  background-image: url("/Images/kn.jpeg") !important;
+  width:45%;
+  background-repeat: no-repeat;
+  /* background-color: greenyellow !important; */
+  height:450px !important;
+}
+
+
+.mainContainer{
+  width:55%;
+}
+
+
+.start{
+  align-items: center;
+  margin-top: 7%;
+  margin-left: 70px;
+}
+
+.logwith{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1% 20% 1% 20%;
+}
+.acc{
+  display: flex;
+  border: 1px solid black;
+  border-radius: 20px;
+  justify-content: center;
+}
+.acc>img{
+  width: 9%;
+  height: 90%;
+  margin-top: 1%;
+  margin-right: 1%;
+}
+
+.acc>p{
+  display: inline;
+  font-size: 80%;
+}
+.hr{
+  margin: 3% 0 2% 15%;
+  /* margin-left:15% ; */
+  display: flex;
+  font-size: 80%;
+}
+hr{
+  width: 25%;
+  margin-top: 2.2%;
+}
+/* .hr{
+  width: 200%;
+}
+div>hr{
+  margin: 2px;
+  width: 65px;
+  height: 2px;    
+}
+
+.hr{
+  padding: 5%;
+  width: 100%;
+  margin: 3px;
+  font-size: 60%;
+  margin-left: 7%;
+  display: flex;
+} */
+.logdetail{
+  display: flex;
+  flex-direction: column;
+  gap: 15%;
+
+
+}
+.input_group{
+  padding-left: 19%;
+  
+}
+.inp{
+  margin-left: 6%;
+  margin-top: 1%;
+  width: 80%;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 25px;
+  text-align: center;
+
+}
+.forg{
+  padding-left:63%;
+  padding-top: 1%;
+}
+
+
+.sub_button{
+  margin-left: 28%;
+  margin-top: 5%;
+  
+}
+.button{
+  color: #fff;
+  margin-bottom: 2%;
+  /* outline: none; */
+  width: 71%;
+  height: 157%;
+  border: 1px solid #fff;
+  border-radius: 48px;
+  background-color: rgb(165, 24, 165)
+}
